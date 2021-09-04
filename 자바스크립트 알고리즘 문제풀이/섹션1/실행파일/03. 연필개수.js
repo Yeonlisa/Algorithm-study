@@ -1,7 +1,5 @@
 function solution(n){
-    let answer;
-    answer=Math.ceil(n/12);
-    return answer;
+    return Math.ceil(n/12);
 }
 
 console.log(solution(178));
